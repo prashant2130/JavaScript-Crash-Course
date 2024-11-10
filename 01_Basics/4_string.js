@@ -28,7 +28,7 @@ const MyName = new String("PrashantJ");
 // console.log(MyName.toLowerCase());
 // console.log(MyName.charAt(5));
 // console.log(MyName.indexOf("s"));
-// console.log(MyName.substring(3,7));  // End number is cannot be included keep in mind always
+console.log(MyName.substring(3,7));  // End number is cannot be included keep in mind always
 console.log(MyName.slice(0,7));
 
 
@@ -40,12 +40,15 @@ const anotherString = MyName.slice(-8,4)
 console.log(anotherString);
 
 const url = "https://Prashant%20Jagtap.com";
-console.log(url.replace("%20","Satish")); // Given output is "https://PrashantSatishJagtap.com"
+const newUrl=(url.replace("%20","Satish")); // Given output is "https://PrashantSatishJagtap.com"
+console.log(newUrl);
 
 // we can ask also is there in url having Prashnat name
 
 console.log(url.includes("Prashant")); // True 
 console.log(url.includes(".in")); // False
+
+
 
 
 const Mystring ="Prashant-Uddhav-Suraj-Nilesh";

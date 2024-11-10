@@ -5,11 +5,11 @@ const score = 400;
 console.log(typeof(score));  // Output will be Number
 
 const newScore = new Number(400);
-console.log(typeof(newScore));
-
-console.log(newScore.toString());
-console.log(newScore.toString().length); // Output wiil be 3
 console.log(typeof(newScore)); // output will be Object
+
+
+console.log(newScore.toString()); // Convert a any data type into string data type
+console.log(newScore.toString().length); // Output wiil be 3
 
 console.log(newScore.toFixed(2)); // Output will be 400.00
 console.log(newScore.toFixed(3)); // Output will be 400.000
@@ -35,7 +35,7 @@ console.log(Math.abs(-4)); // Output Will be 4  its convert minus value into Pos
 console.log(Math.round(23.1576)); //Output Will be 23
 console.log(Math.round(23.6576)); //Output Will be 24
 console.log(Math.ceil(4.2)); //Output Will be 5  jara sa bhi 4 se bada hoga to wo 5 krdega
-console.log(Math.floor(4.2)); //Output Will be 5 agar 4.2 likha hai to bhi 4 lega aur 4.8 likha hoga to bhi 4 hi lega 
+console.log(Math.floor(4.2)); //Output Will be 4 agar 4.2 likha hai to bhi 4 lega aur 4.8 likha hoga to bhi 4 hi lega 
 console.log(Math.floor(4.8)); //Output Will be 5 agar 4.2 likha hai to bhi 4 lega aur 4.8 likha hoga to bhi 4 hi lega 
 
 
