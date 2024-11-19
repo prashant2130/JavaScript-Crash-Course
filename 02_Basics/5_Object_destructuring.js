@@ -48,3 +48,6 @@ console.log(Cname);
 // ] array End here
 
 // Note *  Agar hame api se ane wala data ko recognise krna hai ya use samjna hai to hum ek website ka use krte hai https://jsonformator.com  aur us data ko hum tree format select krke us data ko easily read kr skte hai
+
+
+// object ends here     
